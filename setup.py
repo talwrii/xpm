@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = "xpm",
-    version = "0.0.4",
+    version = "0.1",
     author = "Tal Wrii",
     author_email = "talwrii@gmail.com",
     description = "Library to output XPM files",
