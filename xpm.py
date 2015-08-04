@@ -8,7 +8,7 @@ import itertools
 import math
 import string
 
-COLOUR_DIGITS = (string.digits + string.ascii_lowercase).encode('ansii')
+COLOUR_DIGITS = (string.digits + string.ascii_lowercase).encode('ascii')
 
 def pil_save(pil_image, variable_name=b'picture'):
     formatter = XpmImage.from_pil(pil_image, variable_name)
