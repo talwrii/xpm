@@ -12,7 +12,7 @@ setup(
     py_modules=['xpm'],
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "Topic :: Graphics",
+        "Topic :: Multimedia :: Graphics",
         "License :: OSI Approved :: BSD License",
     ],
 )
