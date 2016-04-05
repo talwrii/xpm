@@ -8,7 +8,7 @@ setup(
     description = "Library to output XPM files",
     license = "BSD",
     keywords = "xpm image PIL graphics",
-    url = "https://github.com/talwrii/nm-noauto",
+    url = "https://github.com/talwrii/xpm",
     py_modules=['xpm'],
     classifiers=[
         "Development Status :: 3 - Alpha",
