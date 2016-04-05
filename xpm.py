@@ -2,13 +2,16 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
+# c.f. http://python-future.org/compatible_idioms.html#strings-and-bytes
+from builtins import bytes
+
 import sys
 import collections
 import itertools
 import math
 import string
 
-COLOUR_DIGITS = (string.digits + string.ascii_lowercase).encode('ascii')
+COLOUR_DIGITS = bytes((string.digits + string.ascii_lowercase).encode('ascii'))
 
 def pil_save(pil_image, variable_name=b'picture'):
     formatter = XpmImage.from_pil(pil_image, variable_name)
